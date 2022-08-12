@@ -1,0 +1,462 @@
+/* responsive */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .main-reg {
+        padding-top: 8rem;
+        margin: 3rem 0;
+    }
+    .welcomeNote {
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .welcomeNote h3 {
+        font-size: 1.6rem;
+        color: gray;
+        margin-bottom: 1rem;
+    }
+    .intro {
+        text-align: center;
+        padding: 2.2rem 0;
+    }
+    .btns {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .btn-primary {
+        padding: 12px 20px;
+        outline: none;
+        border: none;
+        background: #222222;
+        color: #fff;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        display: inline;
+        font-size: 16px;
+        font-family: 'Nunito',sans-serif;
+        font-weight: 500;
+    }
+    span a  {
+        font-weight: bold;
+        color: #9370DB;
+    }
+    .logo {
+        color: #9370DB;
+        font-weight: bold;
+    }
+    .intro p{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .text-xxl {
+        text-align: center;
+        padding: 3rem 0;
+    }
+    .text-xxl h1 {
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+    .text-xxl h4 {
+        font-size: 1.2rem;
+    }
+    form input {
+        padding: 20px 10px;
+        width: 100%;
+        margin-bottom: 1.6rem;
+        background: #222222;
+        outline: none;
+        border: none;
+        font-size: 1.2rem;
+        color: #fff;
+        border-radius: 10px;
+        font-family: 'Nunito',sans-serif;
+    }
+    .f-pass {
+        text-align: end;
+        font-size: 18px;
+        color: #a3a3a3;
+    }
+    .btn-login {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 16px 20px;
+        outline: none;
+        background: white;
+        border-radius: 10px;
+        font-size: 1.3rem;
+        font-family: 'Nunito',sans-serif;
+        font-weight: bold;
+        outline: none;
+        border: none;
+    }
+    .btn-login:hover {
+        background: black;
+        color: white;
+        transform: all .3s ease;
+    }
+    .login-container {
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+    .login-container p {
+        font-size: 1.2rem;
+        text-transform: capitalize;
+    }
+    .loginbtns {
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .google , .facebook{
+        padding: 10px;
+        width: 25%;
+        height: auto;
+        background-color: transparent;
+        border: transparent;
+        /* box-shadow: 0 0 30px 0 rgb(67 67 67 / 15%); */
+    }
+    .member {
+        text-align: center;
+    }
+    .header_part {
+        display: flex;
+        justify-content: space-between;
+    }
+    .left-box {
+        display: flex;
+        align-items: center; 
+    }
+    .dashboard {
+        padding: 10px;
+    }
+    .top_btns{
+        margin-left: 9px;
+        background: transparent;
+        outline: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        background: #222222;
+        padding: 10px;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .top_btns span {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .notifi {
+        background: transparent;
+        outline: none;
+        border: none;
+    }
+    .notifi img, .top_btns img {
+        width: 14px;
+    }
+    .head-right {
+        display: flex;
+        align-items: center;
+    }
+    .head-right h1 {
+        font-size: 1rem;
+    }
+    .head-right h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #4d4c4c;
+        padding: 0 10px;
+    }
+    
+    .calender-row {
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        background: #222222;
+        border-radius: 10px;
+    }
+    .cal-active {
+        color: #9370DB;
+    }
+    .cal-xls{
+        text-align: center;
+    }
+    .cal-xls p {
+        font-size: 10px;
+    }
+    .headding {
+        margin-top: 10px;
+        padding: 7px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .card-box img {
+        width: 32%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .card-box {
+        background: #141414;
+        display: flex;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 10px;
+        width: 100%;
+    }
+    .card-box p {
+        font-size: 10px;
+        color: #838383;
+    }
+    .goal-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .goal-heading h3 , a{
+        font-size: 13px;
+    }
+    .goals-card {
+        width: 50%;
+        display: flex;
+        background: #222222;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding: 25px 10px;
+    }
+    .goals-name h1 {
+        font-size: 16px;
+    }
+    .goals {
+        display: flex;
+        margin-top: 1.2rem;
+    }
+    .goals-name {
+        margin: 10px;
+    }
+    .goals-icon {
+        background: #fff;
+        height: auto;
+        padding: 20px;
+        border-radius: 50px;
+        position: relative;
+    }
+    .goals-icon i {
+        position: absolute;
+        background: #222222;
+        top: 1px;
+        left: 1px;
+        border-radius: 21px;
+        border-top-left-radius: 3px;
+        padding: 11px;
+    }
+    
+    .routain-img{
+        width: 33%;
+        height: 100%;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .routain {
+        display: flex;
+    }
+    .routain-card {
+        display: flex;
+        background: #222222;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    .rt-sm-txt {
+        display: flex;
+        margin: 16px 0;
+    }
+
+    .rt-box {
+        padding: 1rem;
+    }
+    .rt-text {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .rt-text h1 {
+        font-size: 16px;
+    }
+    .rt-text p {
+        margin: 5px 0;
+    }
+    .rt-sm-col, .rt-lg-txt  {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        width:90px;
+    }
+
+    .rt-lg-txt {
+        margin: 0 10px;
+    }
+    .btn-continue {
+       padding: 8px 20px;
+       width: 83%;
+       border: none;
+       color:#fff;
+       font-family: 'Nunito',sans-serif;
+       outline: none;
+       border-radius: 10px;
+       background: #313131;
+    }
+    .rt-sm-col h3 ,.rt-lg-txt h3{
+        font-size: 14px;
+        color:#888888
+    }
+    .processbar {
+        background: #8b68d2;
+        width: 65%;
+        height: 6px;
+        margin: 13px 0;
+        border-radius: 10px;
+        position: relative;
+    }
+    .processbar span {
+        position: absolute;
+        font-size: 10px;
+        left: 106%;
+        right: 0;
+        top: -3px;
+        color: #6e6e6e;
+    }
+    .newRoutain {
+        width: 100%;
+        margin-top: 2rem;
+        padding: 10px 10px;
+        border-radius: 10px;
+        background: #313131;
+        outline: none;
+        border:none;
+        border: 1px solid rgb(74, 74, 74);
+        color: #c1c1c1;
+    }
+    .ongng {
+        margin-top: 16px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .recmdimg {
+        width: 50%;
+        height: 50%;
+        position: relative;
+    }
+    .recmdimg span {
+        position: absolute;
+        top: 74px;
+        left: 16px;
+        right: 0rem;
+        font-size: 16px;
+    }
+    .recmd-bx {
+        display: flex;
+    }
+    .recmdimg img{
+        width: 95%;
+        height: 100px;
+        border-radius: 10px;   
+    }
+    .recmd-row {
+        display: flex;
+        margin-top: 1rem;
+    }
+    
+    .training-box {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        background: #313131;
+       
+    }
+    .tra-txt {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .tra-txt h1{
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+    .submenus {
+        display: flex;
+        align-items: center;
+    }
+    .submenus p  {
+        font-size: 13px;
+        color: #4d4c4c;
+        margin-left: 16px;
+    }
+    .submenus span {
+        font-size: 10px;
+    }
+    .btn-start {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 9px 20px;
+        font-family: "Nunito",sans-serif;
+        font-size: 16px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background: linear-gradient(to right, #9969c7, #acb6e5);
+        color:#fff;
+    }
+    .wrk-col img {
+        width: 32%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .wrk-col {
+        display: flex;
+        background: #222222;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    .wrk-col-txt , .wrk-icon {
+        padding: 10px;
+    }
+    .wrk-col-txt h1 {
+        font-size: 14px;
+        font-weight: 100;
+        margin-bottom: 1rem;
+    }
+    .wrk-col-txt span {
+        font-size: 13px;
+        color: #4d4d4d;
+    }
+    #baricon {
+        font-size: 20px;
+        font-weight: 100;
+        color:#454545;
+    }
+
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .regpage{
+        display: none !important;
+    }
+}
