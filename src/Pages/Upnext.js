@@ -2,29 +2,14 @@ import React from 'react'
 import '../Styles/main.css'
 import Navbar from '../Components/Navbar'
 
-export default function Split_squats() {
+export default function Upnext() {
   return (
     <>
-    <section>
+     <section>
         <div className='container'>
-            <div className='upnxt-dash'>
-                <div className='up-nxtbtn'>
-                    <a href='/'>Up Next</a>
-                    <div className='upnxt-card'>
-                        <div className='upnxt-cbx'>
-                        <img src='../assets/img1.jpg' alt='/'/>
-                    <div className='txt-bx'>
-                    <h5>Strength Training</h5>
-                    <p>7 day Challenge</p>
-                </div>
-              </div>
-            </div>
-                </div>
-                <div className='upnxt-Nxt'>
-                    <div className='nxt-txt'>
-                        <h4>Good Job!</h4>
-                        <p>Take a few seconds to rest.</p>
-                    </div>
+            <div className='splay-dash'>
+                <div className='splay-img-bx'>
+                    <img src='../assets/gym8.jpg' alt='/'/>
                 </div>
                 <div className='progressbar'></div>
                     <div className='splay-text-col'>
@@ -41,7 +26,7 @@ export default function Split_squats() {
                     <button className='btn-play'><i id="play" className='bx bx-pause'/></button>
                     <button className='btn-skip'><i id="next" className='bx bx-skip-next'/></button>
                 </div>
-            </div>  
+            </div>
         </div>
     </section>
 
