@@ -9,8 +9,11 @@ export default function Split_squats() {
             <div className='splay-dash'>
                 <div className='splay-img-bx'>
                     <img src='../assets/images/img1.jpg' alt='/'/>
-                    <div>
-                        <div></div>
+                    <div className='progressbar'></div>
+                    <div className='splay-text-col'>
+                        <div className=''></div>
+                        <div className=''></div>
+                        <div className=''></div>
                     </div>
                 </div>
             </div>
