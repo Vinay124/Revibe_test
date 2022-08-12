@@ -446,6 +446,15 @@
         font-weight: 100;
         color:#454545;
     }
+    .splay-img-bx img{
+        width: 80%;
+        height: 100%;
+    }
+    .splay-dash {
+        margin-top: 1rem;
+        border-radius: 10px;
+    }
+
 
 
 }
