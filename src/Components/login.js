@@ -1,7 +1,8 @@
-import React from 'react'
-import '../Styles/main.css'
+import React, { Component } from "react";
+import axios from axios;
 
-export default function login() {
+export default class Login extends Component{
+  render() {
   return (
     <>
     <section className='login'>
@@ -45,4 +46,5 @@ export default function login() {
     </section>
   </>
   )
+  }
 }

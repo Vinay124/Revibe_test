@@ -7,13 +7,14 @@ import Split_squats from "./Pages/Split_squats"
 import StrengthTraining from "./Pages/StrengthTraining";
 import Upnext from "./Pages/Upnext";
 import Workoutstats from "./Pages/Workoutstats"
+import Login from "./Components/login";
 
 function App() {
   return(
     <>
     <Router>
           <Switch>
-            <Route path="/" component={Dashboard} exact></Route>
+            <Route path="/" component={Login} exact></Route>
             <Route path="/my_routines" component={Myroutines}></Route>
             <Route path="/Dashboard" component={Dashboard}></Route>
             <Route path="/Register" component={Register}></Route>
@@ -21,6 +22,7 @@ function App() {
             <Route path="/Split_squats" component={Split_squats}></Route>
             <Route path="/Upnext" component={Upnext}></Route>
             <Route path="/Workoutstats" component={Workoutstats}></Route>
+            <Router path="/Login" component={Login}></Router>
           </Switch>
       </Router>
   </>
