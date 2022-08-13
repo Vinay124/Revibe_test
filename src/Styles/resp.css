@@ -613,7 +613,7 @@
         background: #313030;
         text-align:  center;
         border-radius: 5px;
-        margin: 1rem;
+        margin: 1rem 0;
     }
     .share-txt h3 {
         font-size: 12px;
